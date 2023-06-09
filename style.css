@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Inter&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Inter&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bagel+Fat+One&family=Inter&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bagel+Fat+One&family=Bungee&family=Inter&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bagel+Fat+One&family=Bowlby+One&family=Bungee&family=Inter&family=Permanent+Marker&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
@@ -5,14 +11,17 @@ body {
     text-align: center;
     align-items: center;
 
-    background-color: pink;
+    background-color:rgb(250, 160, 175);
+    
     color:black;
 
     padding: 90px;
+
+
 }
 body h1 {
     font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:  'Bowlby One', cursive;;
     font-weight: 400;
 
     text-transform: uppercase;
@@ -23,11 +32,27 @@ button {
 
     background-color: black;
     color: white;
+    
 
     border: none;
     border-radius: 5px;
 
     cursor: pointer;
+}
+body h3{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    margin-top: 610px;
+    
+    font-size: 10px;
+    
+    font-family:  'Bungee', cursive;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
 }
 @media  only screen and (max-width: 600px) {
     * {
